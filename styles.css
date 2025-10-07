@@ -18,7 +18,7 @@ header {
   align-items: center;
   padding: 5px 2%;
   background: #fff;
-  box-shadow: 0 2px 5px rgba(246, 129, 56, 0.1);
+  box-shadow: 0 2px 5px rgba(230, 91, 5, 0.1);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -35,6 +35,31 @@ nav ul {
   list-style: none;
   gap: 20px;
 }
+
+nav ul li a{
+  color: rgb(1, 1, 1);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover{
+  color: #ff6600;
+}
+
+nav ul li a.btn-hire{
+  background-color: #ff6600;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+nav ul li a.btn-hire:hover{
+    border: 1px solid #ff6600;
+    background-color: #ffffff;
+    color: #ff6600;
+    }
+ 
 
 nav a {
   text-decoration: none;
