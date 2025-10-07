@@ -1,4 +1,4 @@
-/* ===== GLOBAL STYLES ===== */
+/* General Styles */
 * {
   margin: 0;
   padding: 0;
@@ -78,7 +78,7 @@ nav a {
 }
 
 .btn:hover {
-  background: #e65c00;
+  background: #b24b06;
 }
 
 .btn.small {
@@ -89,9 +89,12 @@ nav a {
 /* ===== HERO SECTION ===== */
 .hero {
   display: flex;
+  height: 100vh;
+  background-color: #f7edde;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 30px;
   padding: 80px 10%;
 }
 
