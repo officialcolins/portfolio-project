@@ -18,7 +18,7 @@ header {
   align-items: center;
   padding: 20px 10%;
   background: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(246, 129, 56, 0.1);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -195,10 +195,14 @@ footer {
   header {
     flex-direction: column;
     text-align: center;
+    text-align: center;
   }
 
   nav ul {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
   }
 
