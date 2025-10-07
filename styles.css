@@ -96,6 +96,11 @@ nav a {
   flex-wrap: wrap;
   gap: 30px;
   padding: 80px 10%;
+  margin-top: 20px;
+}
+
+.hero a.btn {
+  margin-top: 20px;
 }
 
 .intro {
@@ -254,4 +259,16 @@ footer {
     width: 100%;
     max-width: 400px;
   }
+}
+
+.hero {
+  display: grid;
+  height: 100vh;
+  background-color: #f7edde;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 80px 10%;
+  margin-top: 20px;
 }
