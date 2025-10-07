@@ -16,7 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10%;
+  padding: 5px 2%;
   background: #fff;
   box-shadow: 0 2px 5px rgba(246, 129, 56, 0.1);
   position: sticky;
@@ -24,14 +24,14 @@ header {
   z-index: 100;
 }
 
-.logo {
-  color: #ff6600;
-  font-weight: bold;
-  font-size: 1.5rem;
+.logo img{
+  width:40px;
+  height: auto;
 }
 
 nav ul {
   display: flex;
+  align-items: center;
   list-style: none;
   gap: 20px;
 }
@@ -44,7 +44,7 @@ nav a {
 
 .btn {
   background: #ff6600;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 10px 20px;
   border-radius: 25px;
   text-decoration: none;
