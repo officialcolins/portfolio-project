@@ -173,11 +173,14 @@ section {
 }
 
 .portfolio-gallery figure {
+    position: relative;
     width: 100%;
     height: 250px;
     /* fixed height for uniformity */
     overflow: hidden;
     border-radius: 10px;
+    cursor: pointer;
+    margin: 0;
 }
 
 .portfolio-gallery img {
@@ -185,9 +188,35 @@ section {
     height: 100%;
     object-fit: cover;
     display: block;
+    transition: transform 0.4s ease;
 }
 
-/* ===== BLOG ===== */
+.portfolio-gallery figure:hover img { /* Zoom effect on hover */
+    transform: scale(1.1);
+}
+
+.portfolio-gallery figcaption {
+    position: absolute;
+    bottom: 0;
+    background: rgb(224, 200, 161);
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-gallery figure:hover figcaption {
+    opacity: 1;
+}
+
+.portfolio-gallery figure figcaption h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/*  BLOG  */
 .blog-posts {
     display: flex;
     justify-content: center;
@@ -208,7 +237,7 @@ section {
     width: 100%;
 }
 
-/* ===== CONTACT ===== */
+/*  CONTACT  */
 .contact-grid {
     display: flex;
     justify-content: space-between;
@@ -244,7 +273,7 @@ section {
     height: 120px;
 }
 
-/* ===== FOOTER ===== */
+/*  FOOTER  */
 footer {
     text-align: center;
     background: #ff6600;
@@ -255,7 +284,7 @@ footer {
 
 
 
-/* ===== RESPONSIVENESS ===== */
+/*  RESPONSIVENESS */
 /* 📱 Handles mobile and tablet layouts */
 @media (max-width: 768px) {
     header {
