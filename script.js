@@ -1,5 +1,5 @@
 // Simple demo interaction
 document.querySelector("form").addEventListener("submit", e => {
   e.preventDefault();
-  alert("Message sent (demo only)");
+  alert("Message sent! I'll get back to you soon.");
 });
