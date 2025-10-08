@@ -8,7 +8,7 @@
 
 body {
     color: #222;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 /* ===== HEADER ===== */
@@ -219,7 +219,7 @@ section {
 }
 
 /* --- General Blog Section --- */
-.blog-section {
+#blog-section {
     text-align: center;
     padding: 60px 20px;
     margin-bottom: 5px;
