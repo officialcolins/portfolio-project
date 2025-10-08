@@ -121,6 +121,7 @@ section {
 .section-header {
     display: grid;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 
@@ -221,6 +222,7 @@ section {
 .blog-section {
     text-align: center;
     padding: 60px 20px;
+    margin-bottom: 5px;
     font-family: "Poppins", sans-serif;
 }
 
@@ -357,6 +359,7 @@ section {
 }
 
 /*  CONTACT  */
+
 .contact-grid {
     display: flex;
     justify-content: space-between;
