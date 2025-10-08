@@ -332,6 +332,10 @@ section {
     line-height: 1.5;
 }
 
+.post h3 {
+    color: #f76300;
+}
+
 /* --- Post Footer --- */
 .post footer {
     padding: 10px 20px;
@@ -359,8 +363,9 @@ section {
     flex-wrap: wrap;
     background: #fff7f0;
     border-radius: 12px;
-    padding: 40px;
+    padding: 30px;
 }
+
 
 .contact-info,
 .contact-form {
@@ -372,7 +377,7 @@ section {
 .contact-form label {
     display: block;
     margin-bottom: 10px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .contact-form input,
@@ -381,11 +386,11 @@ section {
     padding: 10px;
     margin-top: 5px;
     border-radius: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #a3988d;
 }
 
 .contact-form textarea {
-    height: 120px;
+    height: 100px;
 }
 
 /*  FOOTER  */
