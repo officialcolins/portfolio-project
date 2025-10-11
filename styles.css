@@ -17,7 +17,7 @@ body {
   font-family: 'Poppins', sans-serif; /* optional font styling */
 }
 
-/* ===== HEADER ===== */
+/*  HEADER  */
 header {
     display: flex;
     justify-content: space-between;
@@ -92,17 +92,16 @@ nav a {
     font-size: 14px;
 }
 
-/* ===== HERO SECTION ===== */
+/*  HERO SECTION  */
 .hero {
     display: flex;
-    height: 100vh;
-    background-color: #f7edde;
+    height: 70vh;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
     padding: 80px 10%;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .hero a.btn {
@@ -126,8 +125,9 @@ section {
 
 .section-header {
     display: grid;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 
@@ -142,6 +142,7 @@ section {
 }
 
 /* SERVICES */
+
 
 .service-list h4 {
     color: #ff6600;
