@@ -125,7 +125,7 @@ section {
 
 .section-header {
     display: grid;
-    padding: 10px;
+    padding: 5px 15px;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
