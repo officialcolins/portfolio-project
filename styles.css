@@ -9,19 +9,12 @@
 body {
     color: #222;
     background-image: url('img/background.jpg');
-    /* your image path */
     background-size: cover;
-    /* make it fill the screen */
     background-repeat: no-repeat;
-    /* prevent tiling */
     background-attachment: fixed;
-    /* keep it steady while scrolling */
     background-position: center;
-    /* center it nicely */
     color: #000000;
-    /* optional: make text visible on dark bg */
     font-family: 'Poppins', sans-serif;
-    /* optional font styling */
 }
 
 /*  HEADER  */
@@ -126,7 +119,7 @@ nav a {
 
 /* all sections */
 section {
-    padding: 80px 10%;
+    padding: 25px 10%;
     text-align: center;
 }
 
