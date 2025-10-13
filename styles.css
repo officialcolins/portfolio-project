@@ -18,10 +18,11 @@ body {
 }
 
 /*  HEADER  */
-.main-header{
-   position: sticky;
+.main-header {
+    background: linear-gradient(90deg, #ffffff, #bacbfa, #fefefe);
+    position: sticky;
     top: 0;
-    z-index: 100; 
+    z-index: 100;
 }
 
 header {
@@ -388,16 +389,31 @@ section {
 }
 
 .contact-form {
-    ;
     flex: 1 1 400px;
     margin: 10px;
     text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
 }
 
 .contact-form label {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 10px;
+    width: 100%;
     font-weight: bold;
+    box-sizing: border-box;
+}
+
+.contact-form label:nth-of-type(1),
+.contact-form label:nth-of-type(2) {
+    width: calc(50% - 10px);
+    /* make each take half the row */
+}
+
+.contact-form label:nth-of-type(1) {
+    margin-right: 5px;
 }
 
 .contact-form input,
@@ -405,7 +421,7 @@ section {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border-radius: 8px;
+    border-radius: 20px;
     border: 1px solid #a3988d;
 }
 
@@ -448,46 +464,52 @@ footer {
         gap: 10px;
     }
 
-.intro, .hero-img {
+    .intro,
+    .hero-img {
         flex: 1 1 100%;
     }
 
 
-.service-list,
-.portfolio-gallery,
-.blog-posts,
-.contact-grid {
-    flex-direction: column;
-    align-items: center;
-}
+    .service-list,
+    .portfolio-gallery,
+    .blog-posts,
+    .contact-grid {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.service,
-.post,
-.contact-info,
-.contact-form {
-    width: 100%;
-    max-width: 400px;
-}
+    .service,
+    .post,
+    .contact-info,
+    .contact-form {
+        width: 100%;
+        max-width: 400px;
+    }
 
 
-.hero {
-    display: flex;
-    height: auto;
-    background-color: #f7edde;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding: 80px 10%;
-    margin-top: 0px;
-}
+    .hero {
+        display: flex;
+        height: auto;
+        background-color: #f7edde;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 80px 10%;
+        margin-top: 0px;
+    }
 
-.portfolio-gallery {
-    grid-template-columns: 1fr;
-    /* 1 column for mobile */
-}
+    .portfolio-gallery {
+        grid-template-columns: 1fr;
+        /* 1 column for mobile */
+    }
 
-.portfolio-gallery figure {
-    height: 200px;
-}
+    .portfolio-gallery figure {
+        height: 200px;
+    }
+
+    .contact-form label:nth-of-type(1),
+    .contact-form label:nth-of-type(2) {
+        width: 100%;
+    }
 }
