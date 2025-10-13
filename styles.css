@@ -9,7 +9,6 @@
 
 body {
     color: #222;
-    background: #ffffff;
     color: #000000;
     font-family: 'Poppins', sans-serif;
 }
@@ -75,7 +74,7 @@ nav a {
 }
 
 .btn {
-    background: #f00303;
+    background: #0070f8;
     color: rgb(255, 255, 255);
     padding: 10px 20px;
     border-radius: 25px;
@@ -125,6 +124,7 @@ section {
 }
 
 .section-header {
+    background: linear-gradient(90deg, #4370f8, #bacbfa, #7d48fa);
     display: grid;
     padding: 5px 15px;
     align-items: center;
@@ -433,6 +433,47 @@ footer {
     color: #fff;
     padding: 20px;
 }
+
+#formMessage {
+  text-align: center;   /* centers it under the form */
+  margin: 10px 0;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+#formMessage.success {
+  color: #28a745;
+}
+
+#formMessage.error {
+  color: #dc3545;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #3a78b5;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 45px;
+  width: 45px;
+  height: 45px;
+  border-radius: 20%;
+  font-size: 22px;
+  display: block;   /* hidden by default */
+  z-index: 9999;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+#backToTop:hover {
+  background-color: #ff6b2d;
+  transform: scale(1.1);
+}
+
+
 
 
 
