@@ -1,3 +1,4 @@
+
 /* General Styles */
 * {
     margin: 0;
@@ -8,18 +9,14 @@
 
 body {
     color: #222;
-    background-image: url('img/background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    background: #ffffff;
     color: #000000;
     font-family: 'Poppins', sans-serif;
 }
 
 /*  HEADER  */
 .main-header {
-    background: linear-gradient(90deg, #ffffff, #bacbfa, #fefefe);
+    background: linear-gradient(90deg, #f9f8d6, #bacbfa, #fefefe);
     position: sticky;
     top: 0;
     z-index: 100;
