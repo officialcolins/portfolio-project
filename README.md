@@ -25,7 +25,7 @@ Simply visit the live demo link above — no installation required.
 You can also clone the repository and open `index.html` in any web browser:
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://officialcolins.github.io/portfolio-project/
 cd portfolio
 
  Deployment
@@ -34,12 +34,13 @@ To deploy your own version:
 1.	Push your code to a GitHub repository.
 2.	Go to your repo’s Settings → Pages.
 3.	Under Source, select your main branch.
-4.	Your site will be live at https://yourusername.github.io/.
+4.	Your site will be live at https://officialcolins.github.io/portfolio-project/
 Contact
 Feel free to reach out via the contact form on the website
 or connect with me through my social media links!
 License
 This project is open source.
 © 2025 Collins Kiprop. All rights reserved.
+
 
 
