@@ -14,7 +14,7 @@ const form = document.querySelector(".contact-form");
 
     // Check for empty fields
     if (!firstname || !lastname || !phone || !email || !message) {
-      messageBox.textContent = "⚠️ Please fill in all fields.";
+      messageBox.textContent = "⚠️ Please fill in all fields!";
       messageBox.className = "error";
       return;
     }
